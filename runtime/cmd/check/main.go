@@ -211,6 +211,8 @@ func run(
 	if !allSucceeded {
 		os.Exit(1)
 	}
+
+	fmt.Println("OK")
 }
 
 func runPath(
